@@ -2,7 +2,7 @@
 
 Python-style generators in Ruby using call/cc. Generators are akin to interruptible computations which can choose to yield control at the desired point in time,
 only to be resumed later. Every time a generator yields control, it can return a value. It therefore "generates"
-values from a computation.
+values from a computation as it goes:
 
 ```{ruby}
 # An infinite enumeration.
