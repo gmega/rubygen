@@ -4,7 +4,7 @@ Python-style generators in Ruby using call/cc. Generators are akin to interrupti
 only to be resumed later. Every time a generator yields control, it can return a value. It therefore "generates"
 values from a computation as it goes:
 
-```{ruby}
+```ruby
 # An infinite enumeration.
 gen = RubyGen.new(1) do |context, start|
   i = start
